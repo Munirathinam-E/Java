@@ -27,7 +27,7 @@ public class AccountNumber {
 				sum+=(num%10);
 				num=num/10;
 			}
-			if(last==sum/10)
+			if(last==sum%10)
 			{
 				bos.write(str);
 				bos.newLine();
